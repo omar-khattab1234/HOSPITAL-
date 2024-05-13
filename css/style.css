@@ -1,0 +1,615 @@
+footer .end a,
+footer .social a {
+    transition: .5s;
+    transform: scale(1.5);
+    color: #fff
+}
+
+.contact form input,
+nav {
+    padding: 0 5%;
+    width: 100%
+}
+
+.doctor .doc .doces,
+nav {
+    box-shadow: 0 0 10px #444
+}
+
+footer,
+nav {
+    font-size: 25px
+}
+
+main .description button:hover,
+nav .searsh button:hover,
+nav .searsh input:hover {
+    box-shadow: 0 0 10px #0ff
+}
+
+.about .con,
+.doctor .con,
+.doctor .doc .doces .informatin,
+.services .con,
+.team .con,
+.team .containers .doctors .data,
+main .description,
+main .description button {
+    text-transform: capitalize;
+    text-transform: capitalize
+}
+
+.doctor .doc .doces .informatin p,
+.services .service .icons p {
+    text-align: center;
+    line-height: 35px
+}
+
+main .description {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column
+}
+
+.about .photoes .gallery,
+main .description button a {
+    align-items: center;
+    display: flex
+}
+
+.about .photoes .gallery {
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap
+}
+
+.about .photoes img {
+    width: 350px
+}
+
+.about .container,
+.doctor .doc,
+.services .service,
+.team .containers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.team .containers .doctors {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+
+.team .containers .doctors .data {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.services .service .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+
+.doctor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 5%;
+    background-color: rgba(5, 100, 69, .179)
+}
+
+.about .con,
+.doctor .con,
+.services .con,
+.team .con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px
+}
+
+.doctor .con h2 {
+    font-size: 40px;
+    color: #256161
+}
+
+.doctor .doc .doces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px
+}
+
+.doctor .doc .doces img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    aspect-ratio: 1/1.4;
+    object-fit: cover
+}
+
+.doctor .doc .doces .informatin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #256161;
+    padding: 5%;
+    gap: 20px
+}
+
+.contact,
+.contact form {
+    flex-direction: column;
+    gap: 30px;
+    display: flex
+}
+
+.doctor .doc .doces .informatin h2 {
+    font-size: 25px;
+    font-weight: 900
+}
+
+.doctor .doc .doces .informatin a {
+    display: flex;
+    color: #fff;
+    background-color: #0ff;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5%;
+    transition: .5s
+}
+
+.doctor .doc .doces .informatin a:hover {
+    color: #0ff;
+    background-color: transparent;
+    border: 1px solid #0ff
+}
+
+.contact {
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(3, 93, 63, .24);
+    font-size: 30px;
+    padding: 15px 5%;
+    width: 100%
+}
+
+.contact form {
+    align-items: center;
+    justify-content: space-between;
+    width: 50%
+}
+
+.about,
+footer {
+    flex-direction: column;
+    padding: 5%
+}
+
+.contact form input {
+    height: 50px;
+    box-shadow: inset 0 0 10px #0ff
+}
+
+.contact form button,
+nav .searsh button,
+nav .searsh input {
+    padding: 5px 5%;
+    cursor: pointer
+}
+
+.contact form input::placeholder {
+    color: #444;
+    text-transform: capitalize;
+    font-size: 18px
+}
+
+.contact form button {
+    font-size: 30px;
+    border: none;
+    color: #fff;
+    background-color: #444;
+    box-shadow: inset 0 0 8px #0ff
+}
+
+footer {
+    background-color: rgba(25, 136, 136, .488);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+    text-align: center
+}
+
+footer .end a {
+    justify-content: space-between;
+    font-size: 30px
+}
+
+footer a:hover {
+    color: #0ff
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    font-family: Roboto, sans-serif
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imges/back\ groung.webp);
+    background-size: cover;
+    background-position: center
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    height: 18%;
+    background-color: rgba(12, 112, 112, .783)
+}
+
+nav .logo,
+nav .tabs li a {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    transition: .5s
+}
+
+nav .logo {
+    color: #fff
+}
+
+main,
+nav .tabs {
+    justify-content: space-between
+}
+
+nav .logo:hover,
+nav .tabs li a:hover {
+    color: #1affff;
+    height: 100%
+}
+
+nav .tabs {
+    display: flex;
+    gap: 20px
+}
+
+nav .tabs li a {
+    color: #fff
+}
+
+nav .searsh {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.about,
+.about .photoes,
+.services,
+.team,
+main .description {
+    gap: 40px;
+    display: flex
+}
+
+nav .searsh input {
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+    width: 90%
+}
+
+main .description button:hover,
+nav .searsh button:hover,
+nav .searsh input:hover {
+    box-shadow: 0 0 10px #007070;
+    background-color: #007070
+}
+
+nav .searsh input:hover::placeholder {
+    color: #fff
+}
+
+nav .searsh button {
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .5s
+}
+
+nav .searsh button:hover {
+    color: #fff
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 5%
+}
+
+main .description {
+    font-size: 30px;
+    color: #007070;
+    justify-content: space-between;
+    flex-direction: column
+}
+
+main .description button {
+    width: fit-content;
+    font-size: 20px;
+    padding: 0 5%;
+    color: #007070;
+    transition: .5s;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px
+}
+
+main .description button a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: #007070;
+    transition: .5s;
+    font-weight: 700;
+    width: 100%
+}
+
+main .description button a:hover {
+    color: #fff;
+    height: 100%
+}
+
+main img {
+    display: block;
+    width: 324px
+}
+
+.about {
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(10, 242, 165, .119)
+}
+
+.about .con h2,
+.services .con h2,
+.team .con h2 {
+    font-size: 30px;
+    color: #007070
+}
+
+.about .container p {
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #444
+}
+
+.about .container img {
+    display: block;
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #444
+}
+
+.about .photoes img,
+.team .containers .doctors {
+    box-shadow: 0 0 10px #444;
+    width: calc((100% - 40px)/ 3)
+}
+
+.about .photoes {
+    flex-direction: column;
+    align-items: center
+}
+
+.about .photoes h2 {
+    font-size: 30px;
+    color: #007070;
+    text-align: center
+}
+
+.about .photoes .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    opacity: .8
+}
+
+.about .photoes img {
+    display: block;
+    border-radius: 5px;
+    transition: .5s
+}
+
+.about .photoes .gallery img:hover {
+    opacity: .7;
+    cursor: pointer
+}
+
+.team {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: rgba(10, 242, 165, .179)
+}
+
+.team .containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap
+}
+
+.team .containers .doctors {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px
+}
+
+.team .containers .doctors img {
+    width: 100%;
+    display: block;
+    border-radius: 5px
+}
+
+.team .containers .doctors .data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 5%;
+    font-size: 20px;
+    color: #007070
+}
+
+.team .containers .doctors .data p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px
+}
+
+.team .containers .doctors .data a {
+    display: flex;
+    background-color: #007070;
+    color: #fff;
+    padding: 10px 5%;
+    border-radius: 5px;
+    display: flex;
+    transition: .5s
+}
+
+.team .containers .doctors .data a:hover {
+    background-color: transparent;
+    border: 1px solid #007070;
+    color: #007070
+}
+
+.services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: rgba(30, 188, 136, .314)
+}
+
+.services .service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap
+}
+
+.services .service .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 30px;
+    width: calc((100% - 60px)/ 4)
+}
+
+.services .service .icons h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #007070
+}
+
+.services .service .icons p {
+    font-size: 18px
+}
+
+.doctor .doc {
+    gap: 20px;
+    flex-wrap: wrap
+}
+
+.doctor .doc .doces {
+    width: calc((100% - 80px)/ 5)
+}
+
+.doctor .doc .doces .informatin p {
+    font-size: 16px
+}
+
+@media (min-width:0px) and (max-width:920px) {
+
+    main img,
+    nav .tabs {
+        display: none
+    }
+
+    main {
+        height: 88%
+    }
+
+    .about .container {
+        flex-wrap: wrap
+    }
+
+    .about .container>* {
+        width: 100% !important
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+
+    .about .photoes img,
+    .doctor .doc .doces,
+    .services .service .icons,
+    .team .containers .doctors {
+        width: 100%
+    }
+
+    .contact form {
+        width: 90%
+    }
+}
+
+@media (min-width:601px) and (max-width:800px) {
+
+    .about .photoes img,
+    .doctor .doc .doces,
+    .services .service .icons,
+    .team .containers .doctors {
+        width: calc((100% - 20px)/ 2)
+    }
+}
